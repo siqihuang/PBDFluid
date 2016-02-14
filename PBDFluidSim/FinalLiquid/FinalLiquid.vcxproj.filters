@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\external">
+      <UniqueIdentifier>{e6193e4b-351c-45b6-b572-c16360d78db8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene">
+      <UniqueIdentifier>{8bced3c6-b3e4-4f5d-a24e-78fe666086f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\simulation">
+      <UniqueIdentifier>{75c1ef7b-cfc0-488c-8b96-47084d32276c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\glvu">
+      <UniqueIdentifier>{bdb97805-8d20-4af9-8497-1bc76c698f77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\header">
+      <UniqueIdentifier>{5f84beb9-8f8f-4218-b19f-206c003110a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\grid">
+      <UniqueIdentifier>{e1fa11b8-d7fa-4391-b84a-3273efac3d49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cell">
+      <UniqueIdentifier>{8befd455-7b56-4ec1-bb36-e9d058da0703}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\constriant">
+      <UniqueIdentifier>{be033a4c-a1fe-4d64-bdb3-b85af973bd3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\particle">
+      <UniqueIdentifier>{f22585ec-bd91-4cc7-8dc6-9bb7ffd51cd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\main">
+      <UniqueIdentifier>{388b1714-f665-4238-a36b-ca6bb2918901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shader">
+      <UniqueIdentifier>{c124d9d1-c335-4bfc-84be-da81f5d1378b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\io">
+      <UniqueIdentifier>{344542b8-d1c5-4acf-9fbc-e954220b4152}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\container">
+      <UniqueIdentifier>{02d9b819-c19f-4163-b1de-ca3c67331cfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\primitive">
+      <UniqueIdentifier>{4ad45068-e2ed-4970-b2f0-5f249c41f34a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\kernel">
+      <UniqueIdentifier>{dea13a67-eb6b-49d3-8f82-1b8ab05ab1d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\kdtree">
+      <UniqueIdentifier>{ab967ad6-0adb-4b3c-8b34-fc564de84e56}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\camera.h">
+      <Filter>Source Files\external</Filter>
+    </ClInclude>
+    <ClInclude Include="src\snapshot.h">
+      <Filter>Source Files\external</Filter>
+    </ClInclude>
+    <ClInclude Include="src\text.h">
+      <Filter>Source Files\external</Filter>
+    </ClInclude>
+    <ClInclude Include="src\trackball.h">
+      <Filter>Source Files\external</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene.h">
+      <Filter>Source Files\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\simulation.h">
+      <Filter>Source Files\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\glvu.h">
+      <Filter>Source Files\glvu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\glvuVec3f.h">
+      <Filter>Source Files\glvu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\glvuMat16fv.h">
+      <Filter>Source Files\glvu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\glvuVec3fv.h">
+      <Filter>Source Files\glvu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\globalHeader.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\grid.h">
+      <Filter>Source Files\grid</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cell.h">
+      <Filter>Source Files\cell</Filter>
+    </ClInclude>
+    <ClInclude Include="src\constriant.h">
+      <Filter>Source Files\constriant</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Particle.h">
+      <Filter>Source Files\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\main.hpp">
+      <Filter>Source Files\main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shader.h">
+      <Filter>Source Files\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\openglHeader.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\io.h">
+      <Filter>Source Files\io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\container.h">
+      <Filter>Source Files\container</Filter>
+    </ClInclude>
+    <ClInclude Include="src\primitive.h">
+      <Filter>Source Files\primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="src\kernel.h">
+      <Filter>Source Files\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\kdtree.h">
+      <Filter>Source Files\kdtree</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\scene.cpp">
+      <Filter>Source Files\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation.cpp">
+      <Filter>Source Files\simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\glvu.cpp">
+      <Filter>Source Files\glvu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\grid.cpp">
+      <Filter>Source Files\grid</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cell.cpp">
+      <Filter>Source Files\cell</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Particle.cpp">
+      <Filter>Source Files\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files\main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shader.cpp">
+      <Filter>Source Files\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\io.cpp">
+      <Filter>Source Files\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\container.cpp">
+      <Filter>Source Files\container</Filter>
+    </ClCompile>
+    <ClCompile Include="src\primitive.cpp">
+      <Filter>Source Files\primitive</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kdtree.cpp">
+      <Filter>Source Files\kdtree</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\frag.glsl">
+      <Filter>Source Files\shader</Filter>
+    </None>
+    <None Include="shaders\vert.glsl">
+      <Filter>Source Files\shader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="src\kernel.cu">
+      <Filter>Source Files\kernel</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
