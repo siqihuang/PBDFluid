@@ -14,7 +14,7 @@ Those two videos basically rendered the same scene, but obviously after using GP
 # PART 0 Architecture and Control(Siqi Huang)
 ## Architecture
 In this project, we have used some other's code as referrence, which it is necessary to acknowledge here:<br>
-1 The basic openGl view is gluv and glew. For gluv part, we have using some of Zonhan Xu's code as referrence.<br>
+1 The basic openGl view is gluv and glew. For gluv part, we have using some of Zonghan Xu's code as referrence.<br>
 2 The basic structure of the code is referred to Tiantian Liu's Deformable_body_Sim<br>
 3 The gl buffer part, vertex and fragment shader is mostly from Tiantian Liu's project<br>
 
