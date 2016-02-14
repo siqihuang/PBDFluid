@@ -24,9 +24,9 @@ use mouse to rotate the scene, the gravity change's with the view.
 use blankspace to move to the next frame
 
 ### Input
-use CPU_RENDER or GPU_RENDER to specify render mode
-use CONTAINER_CUBE or CONTAINER_SPHERE to specify container shape(container always at origin) and x y z(or r) to specify dimension(or radius)
-use EYE,LOOKAT,UP to setup camera
-use PARTICLE x y z to specify particle number
-use MINPOS to specify start position of particles
-use DIS to specify particle distance
+use CPU_RENDER or GPU_RENDER to specify render mode<br>
+use CONTAINER_CUBE or CONTAINER_SPHERE to specify container shape(container always at origin) and x y z(or r) to specify dimension(or radius)<br>
+use EYE,LOOKAT,UP to setup camera<br>
+use PARTICLE x y z to specify particle number<br>
+use MINPOS to specify start position of particles<br>
+use DIS to specify particle distance<br>
