@@ -76,3 +76,4 @@ To increse our speed, we decide to implement our project using GPU. As is shown 
 all function in kernel.h and kernel.cu
 
 # PART VII: Reference(Hansi Liu)
+[1] Macklin M, Müller M. Position based fluids[J]. ACM Transactions on Graphics (TOG), 2013, 32(4): 104.
