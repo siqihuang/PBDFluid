@@ -50,6 +50,29 @@ void PBDProjection()(lamda correction for viscosity is calculated here)<br>
 void calculateLamda(Particle &p)<br>
 float poly6Kernel(float h,glm::vec3 r)<br>
 glm::vec3 spikyKernel(float h,glm::vec3 r)<br>
+void findNeighbor();
 ...
 
-# PART III: 
+# PART III: Grid Structure Design and Implementation(Weijian Zhou)
+To find neighbor efficiently, we use grid to store position of each particle and find by nearby grid. We sacrifice space for speed here.
+## Key function
+all function in grid and cell class
+
+# PART IV: Container Collision with particle(Hansi Liu)
+We designed sphere and cube container. Because we use PBD, the collision with container is complex as not to go against PBD rules.
+## Key function:
+void staticIntersection(Particle &p)()
+init function for container
+
+# PART V: Object Collision with particle(Weijian Zhou)
+Our particle can also collide with object like cube and sphere. Although we have done the collision with mesh object, the effect is not very correct. So we do not include that in the final simulation.
+## Key function:
+void staticIntersection(Particel &p)
+init function for primitive
+
+# PART VI: GPU Implementation(Siqi Huang)
+To increse our speed, we decide to implement our project using GPU. As is shown in the demo video, GPU is much more faster than CPU. Although GPU is fast, due to the imprecise of calculation on GPU, some particle MAY have some strange motion. However, the number is limited when we use 10000 particles to render.
+## Key function:
+all function in kernel.h and kernel.cu
+
+# PART VII: Reference(Hansi Liu)
